@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Professional Web Developer Portfolio">
+    <meta name="author" content="Alex Johnson">
+    <link rel="icon" type="image/x-icon" href="./favicon.ico">
+    <title>Alex Johnson | Web Developer</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+
+<body>
+    <header>
+        <a href="#">About</a>
+        <a href="#">Skills</a>
+        <a href="#">Experience</a>
+        <a href="#">Portfolio</a>
+        <a href="#">Contact</a>
+    </header>
+
+    <div class="container">
+        <section class="iam">
+            <h1>Zhaxybekov Omarzhan</h1>
+            <h2>GoLang engineer & Solution architect</h2>
+            <p>
+                <em>Good in problem solving and decision making</em><br>
+                <strong>2+ years of experience</strong> building microservice architecture and pipeline confiuration
+            </p>
+            <hr>
+            <div class="contact-info">
+                <span>&#128205; Kazakhstan, Almaty</span>
+                <span>&#128231; omarzhan@gmail.com</span>
+                <span>&#128241; +49 999 999 9999</span>
+            </div>
+        </section>
+
+
+        <section id="skills">
+            <h3>&#128736; Skills</h3>
+            <p>I specialize on <strong>backend</strong> development with a
+                focus on <em>clean code</em></p>
+
+            <div class="skills-container">
+                <div>
+                    <h4>&#128187; Technical Skills</h4>
+                    <ul>
+                        <li><strong>GoLang</strong></li>
+                        <li><strong>Docker</strong></li>
+                        <li><strong>Jenkins</strong></li>
+                        <li><strong>Databases</strong> - Postgresql, MongoDB, Oracle</li>
+                        <li><strong>DevOps</strong> &ndash; Docker&comma; AWS&comma; Git</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>&#128161; Soft Skills</h4>
+                    <ol>
+                        <li>Problem Solving &amp; Critical Thinking</li>
+                        <li>Project Management &amp; Agile</li>
+                        <li>Continuous Learning</li>
+                    </ol>
+                </div>
+            </div>
+        </section>
+
+
+
+        <section id="experience">
+            <h3>&#128188; Work Experience</h3>
+            <p>A summary of my recent work places</p>
+            <br>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Position</th>
+                        <th>Company</th>
+                        <th>Duration</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Middle Developer</strong></td>
+                        <td>Bank Center Credit</td>
+                        <td>2022-2023</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Senior Engineer</strong></td>
+                        <td>N26 Mobile banking</td>
+                        <td>2023-2024</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Solution architect</strong></td>
+                        <td>AWS Berlin</td>
+                        <td>2024-Present</td>
+                    </tr>
+                </tbody>
+            </table>
+            <br>
+        </section>
+
+
+        <section id="portfolio">
+            <h3>&#127912; Portfolio</h3>
+            <p>Some of my <strong>pet projects</strong></p>
+
+            <div class="gallery">
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop"
+                        alt="E-commerce Project">
+                    <h5>&#128722; E-commerce platform with microservice architecture</h5>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://uaplay.com.ua/wp-content/uploads/2023/06/kazyno-onlajn-.jpeg" alt="Casino">
+                    <h5>Crypto casion</h5>
+                </div>
+            </div>
+            <hr>
+            <p><em>Want to see more?</em> <a href="#" style="color: #00b2a9; font-weight: 600;">Check out my Github
+                    &rarr;</a></p>
+        </section>
+
+
+
+        <section id="contact">
+            <h3>&#128231; Get In Touch</h3>
+            <p>Interested in Collaboration?<strong>Let's connect</strong><br>Fill out the form
+                below and I will get back to you <em>within 24 hours</em>.</p>
+
+            <form action="/submit" method="post">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="name">Full Name <span>&ast;</span></label>
+                        <input type="text" id="name" name="name" required placeholder="Zhaxybekov Omarzhan">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address <span>&ast;</span></label>
+                        <input type="email" id="email" name="email" required placeholder="omarzhan@gmail.com">
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone" placeholder="+49 999 999 9999">
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <select id="subject" name="subject" required>
+                            <option value="">Select a topic&hellip;</option>
+                            <option value="project">&#128640; New Project</option>
+                            <option value="job">&#128188; Job Opportunity</option>
+                            <option value="collab">&#129309; Collaboration</option>
+                            <option value="other">&#128172; Other</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Your Message <span>&ast;</span></label>
+                    <textarea id="message" name="message" required
+                        placeholder="Tell me about your project or idea&hellip;"></textarea>
+                </div>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </div>
+
+
+
+    <section id="extra">
+        <h3>FAQ</h3>
+
+        <details class="faq-item">
+            <summary>&#9660; What services do you offer?</summary>
+            <p>I offer backend software engineering and system solution design</p>
+        </details>
+        <details class="faq-item">
+            <summary>&#9660; What is your typical project timeline?</summary>
+            <p>Project timelines vary based on complexity. It may take from 1-2 wekks up to 2-4 months</p>
+        </details>
+        <details class="faq-item">
+            <summary>&#9660; Do you offer ongoing support?</summary>
+            <p>Yes, I provide life-time support for first month</p>
+        </details>
+
+        <hr>
+
+        <h4>&#127942; Award Winning Work</h4>
+        <figure class="award-figure">
+            <img src="https://i.ytimg.com/vi/UDGdPE_C9u8/maxresdefault.jpg" alt="Microsoft Excel world cup 2023">
+            <figcaption>Second place on Microsoft Excel world cup 2023</figcaption>
+        </figure>
+
+        <hr>
+
+        <h4>&#128200; Skill Proficiency</h4>
+        <div class="meter-container">
+            <div class="meter-item">
+                <label for="golang-skill">GoLang</label>
+                <meter id="golang-skill" value="0.95" min="0" max="1" low="0.3" high="0.7" optimum="0.9"></meter>
+                <span>95%</span>
+            </div>
+            <div class="meter-item">
+                <label for="docker-skill">Docker</label>
+                <meter id="docker-skill" value="0.90" min="0" max="1" low="0.3" high="0.7" optimum="0.9"></meter>
+                <span>90%</span>
+            </div>
+            <div class="meter-item">
+                <label for="postgres-skill">Postgres</label>
+                <meter id="postgres-skill" value="0.92" min="0" max="1" low="0.3" high="0.7" optimum="0.9"></meter>
+                <span>92%;</span>
+            </div>
+        </div>
+
+        <hr>
+
+        <h4>&#128640; Current Project Status</h4>
+        <div class="progress-container">
+            <label>Online crypto casino</label>
+            <progress value="100" max="100"></progress>
+            <span>Fully completed</span>
+        </div>
+
+        <hr>
+
+        <h4>&#11088; Highlights</h4>
+        <p class="highlight-text">
+            I have been recognized as a <mark>Top 10 Developer</mark> on GitHub in 2024&period; My work has been
+            featured in <mark>mostly in FinTech</mark>.
+        </p>
+
+        <hr>
+
+
+
+        <h4>&#128197; Career Timeline</h4>
+        <div class="timeline">
+            <p>&#128204; First program <time datetime="2019-09-01">September 2019</time></p>
+            <p>&#128204; First job&colon; <time datetime="2022-06-15">June 15, 2022</time></p>
+        </div>
+
+        <hr>
+
+
+        <h4>&#128736; Technical Certifications</h4>
+        <p class="abbr-text">
+            Certified in <abbr title="Amazon Web Services">AWS</abbr> Solutions Architect.
+            Experienced with <abbr title="Continuous Integration/Continuous Deployment">CI/CD</abbr> pipelines and
+            <abbr title="Application Programming Interface">API</abbr> development.
+        </p>
+
+        <hr>
+
+
+
+        <h4>Employee feedback</h4>
+        <blockquote class="testimonial">
+            <p>Great technical skills and knowldege in combination with self education</p>
+            <footer>-<cite>Max </cite>Chief solution architect in N26</footer>
+        </blockquote>
+
+        <hr>
+
+
+
+        <h4>Expected salary</h4>
+        <dl class="services-list">
+            <dt>Solution architect</dt>
+            <dd>10,000$</dd>
+
+            <dt>GoLang TeamLead</dt>
+            <dd>7.000$</dd>
+        </dl>
+
+        <hr>
+
+
+
+        <h4>&#127968; Location</h4>
+        <address class="home-address">
+            <strong>Zhaxybekov Omarzhan</strong><br>
+            Bismarckstraße, 67<br>
+            Berlin, Germany &#127465;&#127466;
+            <br>
+            &#9742; +49 999 999 9999<br>
+            &#128231; omarzhan@gmail.com<br>
+            &#127760; www.omarzhan.io
+        </address>
+    </section>
+
+
+
+    <footer>
+        <p><strong>&copy; 2025 Zhaxybekov Omarzhan.</strong> All Rights Reserved</p>
+        <p>
+            <a href="#">LinkedIn</a> &bull;
+            <a href="#">GitHub</a> &bull;
+            <a href="#">Telegram</a> &bull;
+        </p>
+        <br>
+        <p><em>This website build with React JS</em></p>
+    </footer>
+</body>
+
+</html>
